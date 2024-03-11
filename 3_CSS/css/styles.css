@@ -153,5 +153,42 @@ h2 {
 
 .height-width-2 {
     height: 300px;
-    background-color: green;
+    background-color: gray;
+}
+
+/* 23 - Padding */
+
+.without-padding,
+.padding {
+    background-color: #111;
+    color: #FFF;
+}
+
+.padding {
+    background-color: #333;
+    padding: 20px;
+}
+
+/* 24 - Padding individual */
+
+.padding-individual {
+    background-color: #222;
+    color: #fff;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+}
+
+/* 25 - Shorthand properties */
+
+.shorthand-padding {
+    background-color: #444;
+    padding: 6px 12px 18px 24px;
+}
+
+.shorthand-padding-2 {
+    background-color: #555;
+    padding: 10px 20px;
+    /* padding: 10px 20px 10px 20px */
 }
