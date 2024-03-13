@@ -296,3 +296,68 @@ h2 {
     color: #fff;
     border: none;
 }
+
+/* 33 - text-aligned */
+
+.text-aligned {
+    text-align: right;
+}
+
+.container-center {
+    text-align: center;
+    width: 300px;
+    border: 1px solid red;
+}
+
+/* 34 - Text Decoration */
+
+.underline {
+    text-decoration: underline;
+}
+
+.line-trough {
+    text-decoration: line-through;
+}
+
+.remove-underline {
+    text-decoration: none;
+    color: red;
+}
+
+/* 35 - Text Transform */
+
+.upper {
+    text-transform: uppercase;
+}
+
+.lower {
+    text-transform: lowercase;
+}
+
+/* 36 - Letters Space */
+
+.spacing {
+    letter-spacing: 10px;
+}
+
+/* 37 - Font */
+
+.serif {
+    font-family: Georgia;
+}
+
+.sans-serif {
+    font-family: Helvetica;
+}
+
+.monospace {
+    font-style: "Courier New";
+}
+
+.cursive {
+    font-family: cursive;
+}
+
+.fantasy {
+    font-family: fantasy;
+}
