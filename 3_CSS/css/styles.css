@@ -489,7 +489,7 @@ h2 {
 .fixed {
     width: 100px;
     height: 100px;
-    border: 5px solid solid;
+    border: 5px solid blue;
     background-color: #851;
     margin-top: 120px;
     position: fixed;
@@ -498,3 +498,41 @@ h2 {
 }
 
 /* 48 - Sticky */
+
+.sticky {
+    width: 100px;
+    height: 100px;
+    border: 5px solid green;
+    background-color: #994;
+    margin-top: 120px;
+    position: sticky;
+    top: 10px;
+}
+
+/* 49 - Z-Index */
+
+.absolute-3,
+.absolute-4
+.absolute-5 {
+    width: 50px;
+    height: 50px;
+    background-color: #123;
+    position: absolute;
+}
+
+.absolute-3 {
+    top: 0;
+    left: 0;
+}
+
+.absolute-4 {
+    top: 10px;
+    left: 10px;
+    background-color: #246;
+}
+
+.absolute-5 {
+    top: 40px;
+    left: 40px;
+    background-color: #453;
+}
